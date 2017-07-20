@@ -8,7 +8,6 @@ module.exports = class extends Generator {
 
     var files = [
       '.babelrc',
-      '.gitignore',
       '.npmignore',
       'src/index.js',
       'README.md'
