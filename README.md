@@ -26,7 +26,8 @@ After than you can use this generator with **yo**
     yo new-react-component
 
 For publishing your package you must read **npm** documents : [https://docs.npmjs.com/getting-started/publishing-npm-packages](https://docs.npmjs.com/getting-started/publishing-npm-packages)
+<p align="center">
+<img src="https://gitlab.com/taluttasgiran/new-react-component/raw/master/res.png" />
+</p>
 
-![enter image description here](https://raw.githubusercontent.com/taluttasgiran/goladius/master/mascot.png)
-
-*Please do not forget to give stars.*
+*Please don't forget to give stars.*
