@@ -1,6 +1,6 @@
 {
   "name": "generator-new-react-component",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "description": "Yeoman generator for creating new react component package",
   "main": "index.js",
   "scripts": {
