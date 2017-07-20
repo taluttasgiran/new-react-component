@@ -65,7 +65,11 @@ module.exports = class extends Generator {
           );
         }
 
-    var keywordsArray = answers.keywords.split(',');
+        if(keywordsArray.length){
+          var keywordsArray = answers.keywords.split(',');
+        }else{
+
+        }
         this.fs.copyTpl(
       this.templatePath('package.json'),
       this.destinationPath('package.json'),
