@@ -19,7 +19,7 @@ You must have Yeoman: [http://yeoman.io](http://yeoman.io)
 
 First, you must run this command.
 
-    npm install -g new-react-component
+    npm install -g generator-new-react-component
 
 After than you can use this generator with **yo**
 
