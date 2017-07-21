@@ -27,7 +27,7 @@ After than you can use this generator with **yo**
 
 For publishing your package you must read **npm** documents : [https://docs.npmjs.com/getting-started/publishing-npm-packages](https://docs.npmjs.com/getting-started/publishing-npm-packages)
 <p align="center">
-<img src="https://gitlab.com/taluttasgiran/new-react-component/raw/master/res.png" />
+<img src="https://github.com/taluttasgiran/new-react-component/raw/master/res.png" />
 </p>
 
 *Please don't forget to give stars.*

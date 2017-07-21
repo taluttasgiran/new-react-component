@@ -1,6 +1,6 @@
 {
   "name": "generator-new-react-component",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Yeoman generator for creating new react component package",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/taluttasgiran/new-react-component.git"
+    "url": "git+https://github.com/taluttasgiran/new-react-component.git"
   },
   "keywords": [
     "yeoman-generator",
@@ -26,7 +26,7 @@
   "author": "TalutTasgiran",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/taluttasgiran/new-react-component/issues"
+    "url": "https://github.com/taluttasgiran/new-react-component/issues"
   },
-  "homepage": "https://gitlab.com/taluttasgiran/new-react-component#README"
+  "homepage": "https://github.com/taluttasgiran/new-react-component#README"
 }
