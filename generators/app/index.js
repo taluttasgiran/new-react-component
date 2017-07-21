@@ -1,7 +1,29 @@
 var Generator  = require('yeoman-generator');
 module.exports = class extends Generator {
+
   install() {
-    this.spawnCommand('npm', ['install --production']);
+    var ascii = (
+      `
++-------------------------------------------------------------------------------^
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|XX+-------------------------------------------------------------------------+XX|
+|XX                                                                           XX|
+|XX               Now you can create your own component package               XX|
+|XX                                                                           XX|
+|XX  Note: Don't forget to run "npm install" command after writing component! XX|
+|XX                                                                           XX|
+|XX                                                                           XX|
+|XX+-------------------------------------------------------------------------+XX|
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
++------------------------------------------------------------------------------^+
+^-------------------------------------------------------------------------------+
+    `
+    );
+    this.log(ascii)
   }
 
   prompting() {
