@@ -13,7 +13,7 @@ module.exports = class extends Generator {
 |XX                                                                           XX|
 |XX               Now you can create your own component package               XX|
 |XX                                                                           XX|
-|XX  Note: Don't forget to run "npm install" command after writing component! XX|
+|XX              Note: Don't forget to run "npm install" command              XX|
 |XX                                                                           XX|
 |XX                                                                           XX|
 |XX+-------------------------------------------------------------------------+XX|
@@ -31,8 +31,12 @@ module.exports = class extends Generator {
     var files = [
       '.babelrc',
       '.npmignore',
+      '.gitignore',
       'src/index.js',
-      'README.md'
+      'README.md',
+      'template/index.html',
+      'template/index.js',
+      'webpack.config.js'
     ];
 
     return this.prompt([

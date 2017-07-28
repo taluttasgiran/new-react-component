@@ -7,6 +7,7 @@
 The following files are for the creating React component
 -  **src/index.js**
 -  **.babelrc**
+-  **webpack.config.js** (For preview)
 -  **.gitignore**
 -  **.npmignore**
 -  **package.json**
@@ -31,3 +32,5 @@ For publishing your package you must read **npm** documents : [https://docs.npmj
 </p>
 
 *Please don't forget to give stars.*
+
+Thanks for contributions [@cevherkarakoc](https://github.com/cevherkarakoc)

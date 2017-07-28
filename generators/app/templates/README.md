@@ -1,1 +1,1 @@
-### <%= appname %>
+### Your Component Title

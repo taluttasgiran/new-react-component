@@ -2,7 +2,7 @@ const React = require('react');
 
 class YourComponent extends React.Component {
     render () {
-        return <div>Now you can create your own component package!</div>;
+        return <div>Hi again !!!</div>;
     }
 
 }
