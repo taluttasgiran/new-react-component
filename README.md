@@ -25,6 +25,11 @@ First, you must run this command.
 After than you can use this generator with **yo**
 
     yo new-react-component
+    
+After all this you must run **npm install** command.
+
+Also if you want see changes in that moment you must run **yarn start** command.
+This use webpack server.
 
 For publishing your package you must read **npm** documents : [https://docs.npmjs.com/getting-started/publishing-npm-packages](https://docs.npmjs.com/getting-started/publishing-npm-packages)
 <p align="center">
